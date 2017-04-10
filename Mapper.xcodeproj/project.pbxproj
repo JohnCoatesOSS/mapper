@@ -27,6 +27,7 @@
 		C2C036FE1C2B1A0B003FB853 /* URL+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C036F71C2B1A0B003FB853 /* URL+Convertible.swift */; };
 		C2C036FF1C2B1A0B003FB853 /* Transform+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C036F81C2B1A0B003FB853 /* Transform+Dictionary.swift */; };
 		C2C037001C2B1A0B003FB853 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C036F91C2B1A0B003FB853 /* Transform.swift */; };
+		FAB52A661E9C37010046D0C4 /* ObjectCaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB52A651E9C37010046D0C4 /* ObjectCaster.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		C2C036F71C2B1A0B003FB853 /* URL+Convertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Convertible.swift"; sourceTree = "<group>"; };
 		C2C036F81C2B1A0B003FB853 /* Transform+Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Transform+Dictionary.swift"; sourceTree = "<group>"; };
 		C2C036F91C2B1A0B003FB853 /* Transform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transform.swift; sourceTree = "<group>"; };
+		FAB52A651E9C37010046D0C4 /* ObjectCaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectCaster.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				C2C036F91C2B1A0B003FB853 /* Transform.swift */,
 				C2C036F81C2B1A0B003FB853 /* Transform+Dictionary.swift */,
 				C2C036F71C2B1A0B003FB853 /* URL+Convertible.swift */,
+				FAB52A651E9C37010046D0C4 /* ObjectCaster.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				C2C036FB1C2B1A0B003FB853 /* MapperError.swift in Sources */,
 				C20586EC1CDEAD9900658A67 /* DefaultConvertible.swift in Sources */,
 				C2C036FC1C2B1A0B003FB853 /* Mappable.swift in Sources */,
+				FAB52A661E9C37010046D0C4 /* ObjectCaster.swift in Sources */,
 				C2C036FA1C2B1A0B003FB853 /* Convertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

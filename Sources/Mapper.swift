@@ -113,6 +113,10 @@ public struct Mapper {
         if let JSON = value as? NSDictionary {
             return try T(map: Mapper(JSON: JSON))
         }
+        else if let dictionaryValue = value as? [String: Any] {
+            let JSON = ObjectCaster.cast(fromDictionary: dictionaryValue)
+            return try T(map: Mapper(JSON: JSON))
+        }
 
         throw MapperError.typeMismatchError(field: field, value: value, type: NSDictionary.self)
     }
