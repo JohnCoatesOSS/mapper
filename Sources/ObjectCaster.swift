@@ -18,6 +18,9 @@ class ObjectCaster {
         } else if let dataValue = value as? Data {
             return NSData.init(data: dataValue)
         }
+        else if let numberValue = value as? NSNumber {
+            return numberValue
+        }
         else {
             let type = type(of: value)
             print("Couldn't cast from type: \(type)")
