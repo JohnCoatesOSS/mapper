@@ -79,7 +79,7 @@ class ObjectCaster {
         
         for object in objects {
             let valueType = type(of: object)
-            print("type of object in objects array: \(valueType)")
+//            print("type of object in objects array: \(valueType)")
         }
         
         let finalDictionary = NSDictionary.init(objects: valueBuffer, forKeys: keyBuffer, count: keys.count)
@@ -91,7 +91,7 @@ class ObjectCaster {
         
         for (key, value) in finalDictionary {
             let valueType = type(of: value)
-            print("finalDictionary field \(key) is type: \(valueType)")
+//            print("finalDictionary field \(key) is type: \(valueType)")
         }
         
         return finalDictionary
